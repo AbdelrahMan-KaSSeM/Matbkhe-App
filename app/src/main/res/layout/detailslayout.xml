@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/shapetext"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgd"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="11dp"
+        android:layout_y="59dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="12dp" />
+
+    <TextView
+        android:id="@+id/txtnamed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="157dp"
+        android:layout_y="15dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <TextView
+        android:id="@+id/txtdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="176dp"
+        android:layout_y="77dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:id="@+id/txtpriced"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="176dp"
+        android:layout_y="120dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <EditText
+        android:id="@+id/txtqty"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="174dp"
+        android:layout_y="172dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <ImageView
+        android:id="@+id/imgcart"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="309dp"
+        android:layout_y="166dp"
+        app:srcCompat="@drawable/cart"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <ListView
+        android:id="@+id/lstservices"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_x="0dp"
+        android:layout_y="226dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+</AbsoluteLayout>

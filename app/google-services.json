@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "554357400581",
+    "firebase_url": "https://matbkhe-3370f.firebaseio.com",
+    "project_id": "matbkhe-3370f",
+    "storage_bucket": "matbkhe-3370f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554357400581:android:0f26626bd6748b74e1e86c",
+        "android_client_info": {
+          "package_name": "com.example.matbkhe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554357400581-fau58d2v10k6hho2b7mnqnr90n7qfgd2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ5hrwmjQxixpKfatwYmJoMqlmlB56t3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "554357400581-fau58d2v10k6hho2b7mnqnr90n7qfgd2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

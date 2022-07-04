@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imguser"
+        android:layout_width="227dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginBottom="42dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtuserlogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/login" />
+
+    <EditText
+        android:id="@+id/txtuserlogin"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="18dp"
+        android:ems="10"
+        android:background="@drawable/shapetext"
+        android:drawableRight="@drawable/user"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:hint="Username"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/txtpasslogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imguser" />
+
+    <EditText
+        android:id="@+id/txtpasslogin"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="39dp"
+        android:ems="10"
+        android:drawableRight="@drawable/pass"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/shapetext"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/chkloginme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtuserlogin" />
+
+    <CheckBox
+        android:id="@+id/chkloginme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:text="Login Me"
+        app:layout_constraintBottom_toTopOf="@+id/btnlogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtpasslogin" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/shapebutton"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Login "
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtregister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chkloginme" />
+
+    <TextView
+        android:id="@+id/txtregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="37dp"
+        android:text="Create new user ? Registeration !"
+        android:textSize="18sp"
+        android:onClick="GotoRegister"
+        app:layout_constraintBottom_toTopOf="@+id/txtforget"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnlogin"/>
+
+    <TextView
+        android:id="@+id/txtforget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="46dp"
+        android:text="Forget Password"
+        android:textSize="18sp"
+        android:onClick="ForgetPass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtregister" />
+</android.support.constraint.ConstraintLayout>
